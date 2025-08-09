@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000; /* Fallback background */
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background: transparent;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+#hearts-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.content-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.gallery-item img,
+.gallery-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-section {
+    background: rgba(233, 233, 233, 0.8);
+}
+
+.final-message-section {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.final-message-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#dynamic-message {
+    font-size: 1.2em;
+    min-height: 60px;
+    margin-bottom: 30px;
+}
+
+#apology-btn {
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff7e5f;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#apology-btn:hover {
+    background-color: #feb47b;
+    transform: scale(1.05);
+}
+
+#ice-cream-btn {
+    margin-left: 10px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50; /* A different color */
+    color: #fff;
+    font-size: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#ice-cream-btn:hover {
+    background-color: #66bb6a;
+    transform: scale(1.05);
+}
+
+.ice-cream-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ice-cream-section img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.funny-text {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #ddd;
+}
